@@ -1,0 +1,89 @@
+
+.body{
+  
+    height: 500px;
+
+}
+.container{
+    width: 70%;
+    /* animation-name: a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 300px;
+    margin-left: 250px;
+    transition: all 2s ease-in-out;
+}
+.child1{
+    width: 4px;
+    height: 40px;
+    border: 2px solid red;
+    /* margin-top: 200px; */
+    border-radius: 10px;
+    background-color: red;
+    
+    
+    
+
+}
+.child2{
+    width: 4px;
+    height: 40px;
+    border: 2px solid yellow;
+      /* margin-top: 2px; */
+       border-radius: 10px;
+     background-color: yellow
+}
+.child3{
+    width: 4px;
+    height: 40px;
+    border: 2px solid green;
+     /* margin-top: 1px; */
+      border-radius: 10px;
+    background-color: green;
+}
+.child4{
+    width: 4px;
+    height: 40px;
+    border: 2px solid rgb(146, 95, 95);
+    /* margin-top: 1px; */
+ border-radius: 10px;
+  background-color: rgb(166, 100, 100)
+}
+.child5{
+    width: 4px;
+    height: 40px;
+    border: 2px solid rgb(35, 13, 235);
+     /* margin-top: 1px; */
+      background-color: blue;
+     border-radius:10px;
+}
+.container .item{
+    animation: a 1.5s infinite ; 
+}
+
+@keyframes a {
+  
+  0%,20%{
+    height: 20px;
+  }
+  100%{
+    height: 100px;
+  } 
+}
+.container .child1:nth-child(1){
+    animation-delay: 0.2s;
+}
+.container .child2:nth-child(2){
+    animation-delay: 0.4s;
+}
+.container .child3:nth-child(3){
+    animation-delay: 0.3s;
+}
+.container .child4:nth-child(4){
+    animation-delay: 0.6s;
+}
+.container .child5:nth-child(5){
+    animation-delay: 1.2s;
+}
