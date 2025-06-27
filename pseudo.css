@@ -1,0 +1,40 @@
+.container{
+    width: 300px;
+   
+    border: 2px solid aquamarine;
+    border-radius: 6px 6px 0px 0px;
+    background-color: aquamarine;
+    color: black;
+    margin: 20%;
+    position: relative;
+    
+    margin-left: 40%;
+    display: flex;
+    justify-content: end;   
+
+    justify-content: space-evenly;
+}
+
+.item{
+    align-self: auto;
+    /* justify-content: space-around; */
+}
+.container1{
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid aquamarine;
+    border-radius: 0px 0px 6px 6px;
+    position: absolute;
+    top:271px;
+    background-color: aquamarine;
+    left: 511px;
+
+}
+.sel::selection{
+    background-color: blueviolet;
+}
+
+.container1:hover {
+    background-color: aqua;
+}
